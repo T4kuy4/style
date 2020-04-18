@@ -76,6 +76,10 @@ h6 {
   color: #777777;
   font-size: 14px; }
 
+b {
+  color: #b8860b;
+}
+
 p, blockquote, ul, ol, dl, li, table, pre {
   margin: 1rem; 
   font-size: 16px;
