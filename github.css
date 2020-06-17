@@ -288,7 +288,7 @@ img {
 }
 
 svg {
-  width: 100%;
+  width: auto;
 }
 figcaption {
   text-align: center;
