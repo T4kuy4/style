@@ -372,6 +372,7 @@ span.float-right > span {
 code,
 tt {
   color: darkgoldenrod;
+  font-family: "Roboto", "Noto Sans JP", "Noto Sans CJK JP", sans-serif;
   font-weight: bold;
   margin: 0 2px;
   padding: 0 5px;
