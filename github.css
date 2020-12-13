@@ -369,6 +369,15 @@ span.float-right > span {
   text-align: right;
 }
 
+em {
+  color: darkgoldenrod;
+  font-family: "Roboto", "Noto Sans JP", "Noto Sans CJK JP", sans-serif;
+  font-weight: bold;
+  margin: 0 2px;
+  padding: 0 5px;
+  border-radius: 3px;
+}
+
 code,
 tt {
   color: darkgoldenrod;
