@@ -120,12 +120,15 @@ ul,
 ol,
 dl,
 li,
-table,
 pre {
   margin: 1rem;
   font-size: 16px;
 }
 
+table {
+  margin: 1rem;
+  font-size: 12px;
+}
 hr {
   background: transparent
     url("https://raw.githubusercontent.com/gollum/gollum/master/lib/gollum/public/gollum/images/dirty-shade.png")
