@@ -243,7 +243,7 @@ blockquote > :last-child {
 table {
   padding: 0; } 
   table tr {
-    border-top: 1px solid #cccccc;
+    border: 1px solid #cccccc;
     margin: 0;
     padding: 0; }
     table tr th {
