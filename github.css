@@ -253,12 +253,12 @@ table tr th {
   border: 1px solid black;
   text-align: center;
   margin: 0;
-  padding: 4px 9px; }
+  padding: 4px 6px; }
 table tr td {
   border: 1px solid black;
   text-align: left;
   margin: 0;
-  padding: 4px 9px; }
+  padding: 4px 6px; }
 table tr th :first-child, table tr td :first-child {
   margin-top: 0; }
 table tr th :last-child, table tr td :last-child {
