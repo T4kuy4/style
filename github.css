@@ -286,6 +286,14 @@ table tr th :first-child, table tr td :first-child {
 table tr th :last-child, table tr td :last-child {
   margin-bottom: 0; }
 
+.Table {
+  font-size: 0.8rem;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: auto;
+}
+
 figure {
   margin: 0;
 }
