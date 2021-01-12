@@ -309,7 +309,8 @@ svg {
   width: auto;
 }
 figcaption {
-  text-align: center;
+  text-align: left;
+  font-size: 0.8rem;
 }
 
 caption {
