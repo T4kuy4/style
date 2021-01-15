@@ -448,6 +448,10 @@ pre tt {
   clear: both;
 }
 
+.serif {
+  font-family: "Noto Serif JP";
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
