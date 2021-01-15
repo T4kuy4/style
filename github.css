@@ -289,7 +289,7 @@ table tr th :last-child, table tr td :last-child {
 .Table {
   font-size: 0.8rem;
   grid-column-start: 1;
-  grid-column-end: 7;
+  grid-column-end: 8;
   grid-row-start: 1;
   grid-row-end: auto;
 }
@@ -474,6 +474,14 @@ pre tt {
   grid-row-end: auto;
 }
 
+.question {
+  font-family: "Noto Serif JP";
+  font-size: 0.8rem;
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: auto;
+}
 .sheet {
   page-break-after: always;
 }
