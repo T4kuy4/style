@@ -475,21 +475,28 @@ pre tt {
 }
 
 .sup {
-  font-size: 0.6rem;
   grid-column-start: 8;
   grid-column-end: 11;
   grid-row-start: 1;
   grid-row-end: auto;
 }
 
+.sup li, p {
+  font-size: 0.6rem;
+}
+
 .que {
   font-family: "Noto Serif JP";
-  font-size: 0.8rem;
   grid-column-start: 1;
   grid-column-end: 8;
   grid-row-start: 1;
   grid-row-end: auto;
 }
+
+.que li, p {
+  font-size: 0.8rem;
+}
+
 .sheet {
   page-break-after: always;
 }
