@@ -194,6 +194,18 @@ h6 p {
   margin-top: 1rem;
 }
 
+ol li {
+	list-style-type: none;
+	counter-increment: cnt;
+}
+
+ol li::before {
+	content: "(" counter(cnt) ")";
+	display:inline-block;
+	margin-left:-3em; /* サイトに合せて調整 */
+	width: 3em; /* サイトに合せて調整 */
+}
+
 li p.first {
   display: inline-block;
 }
