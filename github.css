@@ -307,7 +307,7 @@ table tr th :last-child, table tr td :last-child {
 }
 
 figure {
-  margin: 0;
+  margin: 0 auto;
 }
 
 img {
