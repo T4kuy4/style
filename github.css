@@ -405,7 +405,6 @@ span.float-right > span {
 }
 
 em {
-  color: black;
   font-family: "Roboto", "Noto Sans JP", "Noto Sans CJK JP", sans-serif;
   font-weight: bold;
   font-style: italic;
@@ -416,7 +415,6 @@ em {
 
 code,
 tt {
-  color: #000000;
   font-family: monospace, sans-serif;
   font-weight: bold;
   margin: 0 2px;
