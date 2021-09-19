@@ -138,7 +138,7 @@ dl,
 li,
 pre {
   margin: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 table {
@@ -463,56 +463,47 @@ pre tt {
 }
 
 .wrapper {
+  font-family: "Noto Serif JP";
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(5, 150px);
   grid-auto-rows: minmax(100px, auto);
   column-gap: 1rem;
   row-gap: 1rem;
 }
 
 .box1 {
-  font-family: "Noto Serif JP";
   grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: auto;
+}
+
+.box2 {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: auto;
+}
+
+.box3 {
+  grid-column-start: 3;
   grid-column-end: 7;
   grid-row-start: 1;
   grid-row-end: auto;
 }
-.box1 ul, ol, li, p {
-  font-size: 1.1rem;
+
+.box4 {
+  grid-column-start: 4;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: auto;
 }
 
-.box2 {
-  grid-column-start: 7;
+.box5 {
+  grid-column-start: 5;
   grid-column-end: 11;
   grid-row-start: 1;
   grid-row-end: auto;
-}
-
-.box2 ul, ol, li, p {
-  font-size: 1rem;
-}
-
-.sup {
-  grid-column-start: 8;
-  grid-column-end: 11;
-  grid-row-start: 1;
-  grid-row-end: auto;
-}
-
-.sup ul, ol, li, p {
-  font-size: 1rem;
-}
-
-.que {
-  font-family: "Noto Serif JP";
-  grid-column-start: 1;
-  grid-column-end: 8;
-  grid-row-start: 1;
-  grid-row-end: auto;
-}
-
-.que ul, ol, li, p {
-  font-size: 1.2rem;
 }
 
 .sheet {
