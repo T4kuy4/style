@@ -7,9 +7,6 @@ body {
   width: 794px;
   margin: 0 auto;
   line-height: normal;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  padding: 3rem;
 }
 body > *:first-child {
   margin-top: 0 !important;
