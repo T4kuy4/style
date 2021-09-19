@@ -507,5 +507,5 @@ pre tt {
 }
 
 .sheet {
-  page-break-after: always;
+  break-after: page;
 }
