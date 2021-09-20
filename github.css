@@ -462,7 +462,7 @@ pre tt {
 .wrapper {
   font-family: "Noto Serif JP";
   display: grid;
-  grid-template-columns: repeat(5, 150px);
+  grid-template-columns: repeat(5, 156px);
   grid-auto-rows: minmax(100px, auto);
   column-gap: 1rem;
   row-gap: 1rem;
