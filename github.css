@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: "Roboto", "Noto Sans JP", "Noto Sans CJK JP", sans-serif;
-  width: 800px;
+  width: 850px;
   margin: 0 auto;
   line-height: normal;
 }
@@ -50,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 20px 0 10px;
+  margin: 10px 0 20px;
   padding: 0;
   font-weight: bold;
   -webkit-font-smoothing: antialiased;
@@ -134,8 +134,8 @@ ol,
 dl,
 li,
 pre {
-  margin: 0.8rem;
-  font-size: 1.2rem;
+  margin: 0.2rem;
+  font-size: 1.3rem;
 }
 
 table {
@@ -209,7 +209,7 @@ li p.first {
 
 ul,
 ol {
-  padding-left: 0.8rem;
+  padding-left: 1rem;
 }
 
 ul {
@@ -403,7 +403,7 @@ span.float-right > span {
 
 em {
   font-family: "Roboto", "Noto Sans JP", "Noto Sans CJK JP", sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   font-style: italic;
   margin: 0 2px;
   padding: 0 5px;
@@ -460,9 +460,8 @@ pre tt {
 }
 
 .wrapper {
-  font-family: "Noto Serif JP";
   display: grid;
-  grid-template-columns: repeat(5, 160px);
+  grid-template-columns: repeat(10, 78px);
   grid-auto-rows: minmax(100px, auto);
   column-gap: 1rem;
   row-gap: 1rem;
@@ -470,35 +469,35 @@ pre tt {
 
 .box1 {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end:span 3;
   grid-row-start: 1;
   grid-row-end: auto;
 }
 
 .box2 {
-  grid-column-start: 2;
-  grid-column-end: 5;
+  grid-column-start: 3;
+  grid-column-end:span 3;
   grid-row-start: 1;
   grid-row-end: auto;
 }
 
 .box3 {
-  grid-column-start: 3;
-  grid-column-end: 7;
+  grid-column-start: 5;
+  grid-column-end:span 3;
   grid-row-start: 1;
   grid-row-end: auto;
 }
 
 .box4 {
-  grid-column-start: 4;
-  grid-column-end: 9;
+  grid-column-start: 7;
+  grid-column-end:span 3;
   grid-row-start: 1;
   grid-row-end: auto;
 }
 
 .box5 {
-  grid-column-start: 5;
-  grid-column-end: 11;
+  grid-column-start: 9;
+  grid-column-end:span 3;
   grid-row-start: 1;
   grid-row-end: auto;
 }
