@@ -134,7 +134,7 @@ ol,
 dl,
 li,
 pre {
-  margin: 1rem;
+  margin: 0.8rem;
   font-size: 1.3rem;
 }
 
@@ -209,7 +209,7 @@ li p.first {
 
 ul,
 ol {
-  padding-left: 1rem;
+  padding-left: 0.8rem;
 }
 
 ul {
