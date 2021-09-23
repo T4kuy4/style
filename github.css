@@ -20,9 +20,9 @@ body > *:last-child {
     width: 172mm !important;
     height: 251mm !important;
     page-break-after: always;
-      margin: 12.7mm 9.7mm;
+    margin: 12.7mm 9.7mm;
   }
-  @page:last-child {
+  @page: last-child {
     page-break-after: auto;
   }
 }
@@ -192,15 +192,15 @@ h6 p {
 }
 
 ol li {
-	list-style-type: none;
-	counter-increment: cnt;
+  list-style-type: none;
+  counter-increment: cnt;
 }
 
 ol li::before {
-	content: "(" counter(cnt) ")";
-	display:inline-block;
-	margin-left:-3em; /* サイトに合せて調整 */
-	width: 3em; /* サイトに合せて調整 */
+  content: "(" counter(cnt) ")";
+  display: inline-block;
+  margin-left: -3em; /* サイトに合せて調整 */
+  width: 3em; /* サイトに合せて調整 */
 }
 
 li p.first {
@@ -213,7 +213,7 @@ ol {
 }
 
 ul {
-  list-style-type: none!important;  
+  list-style-type: none !important;
 }
 
 ul :first-child,
@@ -271,29 +271,37 @@ blockquote > :last-child {
 }
 
 table {
-  margin:auto;
+  margin: auto;
   font-size: 1.1rem;
   border-collapse: collapse;
-  padding: 0; } 
+  padding: 0;
+}
 table tr {
   border: 1px solid black;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 table tr th {
   font-weight: bold;
   border: 1px solid black;
   text-align: center;
   margin: 0;
-  padding: 4px 6px; }
+  padding: 4px 6px;
+}
 table tr td {
   border: 1px solid black;
   text-align: left;
   margin: 0;
-  padding: 4px 6px; }
-table tr th :first-child, table tr td :first-child {
-  margin-top: 0; }
-table tr th :last-child, table tr td :last-child {
-  margin-bottom: 0; }
+  padding: 4px 6px;
+}
+table tr th :first-child,
+table tr td :first-child {
+  margin-top: 0;
+}
+table tr th :last-child,
+table tr td :last-child {
+  margin-bottom: 0;
+}
 
 .Table {
   font-size: 1.1rem;
@@ -469,36 +477,36 @@ pre tt {
 
 .box1 {
   grid-column-start: 1;
-  grid-column-end:span 3;
+  grid-column-end: span 5;
   grid-row-start: 1;
   grid-row-end: auto;
 }
 
 .box2 {
-  grid-column-start: 3;
-  grid-column-end:span 3;
+  grid-column-start: 6;
+  grid-column-end: span 5;
   grid-row-start: 1;
   grid-row-end: auto;
 }
 
 .box3 {
-  grid-column-start: 5;
-  grid-column-end:span 3;
-  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: span 5;
+  grid-row-start: auto;
   grid-row-end: auto;
 }
 
 .box4 {
-  grid-column-start: 7;
-  grid-column-end:span 3;
-  grid-row-start: 1;
+  grid-column-start: 6;
+  grid-column-end: span 5;
+  grid-row-start: auto;
   grid-row-end: auto;
 }
 
 .box5 {
-  grid-column-start: 9;
-  grid-column-end:span 3;
-  grid-row-start: 1;
+  grid-column-start: 5;
+  grid-column-end: span 5;
+  grid-row-start: auto;
   grid-row-end: auto;
 }
 
