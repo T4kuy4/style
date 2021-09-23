@@ -319,7 +319,7 @@ img {
   display: grid;
   width: auto;
   height: auto;
-  margin: 0 auto;
+  margin: 0;
 }
 
 svg {
