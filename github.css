@@ -135,7 +135,7 @@ dl,
 li,
 pre {
   margin: 0.2rem;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 table {
@@ -260,7 +260,7 @@ blockquote {
   font-family: "Noto Serif JP";
   border-left: 4px solid #dddddd;
   background-color: #f8f8f8;
-  padding: 5px 5px;
+  padding: 1rem;
   color: black;
 }
 blockquote > :first-child {
@@ -487,6 +487,7 @@ pre tt {
   grid-column-end: span 5;
   grid-row-start: 1;
   grid-row-end: auto;
+  padding-top: 4rem;
 }
 
 .box3 {
