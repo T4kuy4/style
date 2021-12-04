@@ -503,7 +503,7 @@ pre tt {
   grid-column-end: span 5;
   grid-row-start: 1;
   grid-row-end: auto;
-  padding-top: 4rem;
+  margin-left: 3em;
 }
 
 .box3 {
