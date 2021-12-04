@@ -195,16 +195,7 @@ h6 p {
 }
 
 ol li {
-  list-style-type: none;
-  counter-increment: cnt;
-  list-style-position: outside;
-}
-
-ol li::before {
-  content: "(" counter(cnt) ")";
-  display: inline-block;
-  margin-left: 1em; /* サイトに合せて調整 */
-  width: 3em; /* サイトに合せて調整 */
+  list-style-type: decimal;
 }
 
 li p.first {
