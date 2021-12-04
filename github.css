@@ -494,6 +494,9 @@ pre tt {
 .center {
   grid-column-start: 2;
   grid-column-end: span 9;
+}
+
+.center p {
   justify-items: center;
   align-items: center;
 }
