@@ -202,7 +202,7 @@ ol li {
 ol li::before {
   content: "(" counter(cnt) ")";
   display: inline-block;
-  margin-left: -3em; /* サイトに合せて調整 */
+  margin-left: 3em; /* サイトに合せて調整 */
   width: 3em; /* サイトに合せて調整 */
 }
 
