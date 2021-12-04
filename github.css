@@ -213,6 +213,7 @@ li p.first {
 ul,
 ol {
   padding-left: 1rem;
+  list-style-position: outside;
 }
 
 ul {
