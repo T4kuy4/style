@@ -467,6 +467,23 @@ pre tt {
   background-color: transparent;
   border: none;
 }
+
+.title {
+  text-align: center;
+  font-family: "Noto Serif JP";
+}
+.title h1 {
+  font-size: 3.6rem;
+  margin-top: 7em;
+  margin-bottom: 5em;
+  padding: auto;
+}
+.title h3 {
+  font-size: 3rem;
+  margin-top: 1em;
+  padding: auto;
+}
+
 .clear {
   clear: both;
 }
