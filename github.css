@@ -141,10 +141,6 @@ pre {
   font-size: 1.1rem;
 }
 
-table {
-  margin: 1rem;
-  font-size: 1.1rem;
-}
 hr {
   background: transparent
     url("https://raw.githubusercontent.com/gollum/gollum/master/lib/gollum/public/gollum/images/dirty-shade.png")
@@ -272,6 +268,7 @@ table {
   border-collapse: collapse;
   padding: 0;
 }
+
 table tr {
   border: 1px solid black;
   margin: 0;
